@@ -1,14 +1,13 @@
 import "./App.css";
 import Navigation from "./components/Navigation";
-import Gallery from "./components/Gallery";
+import 
+  import Gallery from "./components/Gallery";
 
 const App = () => {
   
   return (
-  <>
-    <Navigation />  
-    <Gallery /> 
-  </>
+  <Navigation />  
+  <Gallery /> 
   )
 }
 
