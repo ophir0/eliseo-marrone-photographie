@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
 * {
@@ -13,34 +13,25 @@
     
 }
 
-.acceuil-container {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  justify-content: right;
-}
-
 .accueil-image {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  height: 40vh;
-  margin: 0;
+  width: 75%;
+  padding: 10vh;
+  
 }
 
-body {
+.App {
   display: flex;
   flex-direction: row;
+
 }
 
 nav {
-  font-family: "Noto Sans", sans-serif;
-  width: auto;
+  font-family: "Mulish", sans-serif;
+  height: 20vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: left;
-  padding: 10vw;
+  justify-content:space-between;
+  padding: 5vw;
 }
 
 nav ul {
