@@ -1,3 +1,5 @@
+import { Link, Route, Routes } from "react-router-dom";
+
 const Navigation = () => {
      return (
         <nav>
@@ -6,9 +8,9 @@ const Navigation = () => {
             <h5>photographie</h5>
           </div>
           <ul>
-            <li><Link to="/">Accueil</Link></li>
-            <li><Link to="/Series">Series</Link></li>
-            <li><Link to="/Infos">Infos</Link></li>
+            <Link to="/" class="list">Accueil</Link>
+            <Link to="/Series" class="list">Series</Link>
+            <Link to="/Infos" class="list">Infos</Link>
           </ul>
         </nav>
     );
