@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation";
 import Accueil from "./components/Accueil";
 import Infos from "./components/Infos";
 import Series from "./components/Series";
+import Sénescence from "./components/Sénescence";
 
 const App = () => {
   
@@ -30,6 +31,7 @@ const App = () => {
               <Route path="/" element={<Accueil />} />
               <Route path="/Infos" element={<Infos />} />
               <Route path="/Series" element={<Series />} />
+              <Route path="/Sénescence" element={<Sénescence />} />
             </Routes>
         
           </div>
