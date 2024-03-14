@@ -9,11 +9,14 @@ const Series = () => {
       <div>
         <h1>Series</h1>
           <div className='row'>
-            <div className='col-sm-9'>
-            <img src={VoyagePictural} alt="Voyage Pictural" />;
-            <img src={UneNuitAOsaka} alt="Une nuit à Osaka" />;
-            <img src={Sénescence} alt="Sénescence" />;
-            <img src={DélibérezVous} alt="Délibérez-Vous" />;
+            <div className='col'>
+            <img src={VoyagePictural} alt="Voyage Pictural" />
+            <img src={UneNuitAOsaka} alt="Une nuit à Osaka" />
+          
+            </div>
+            <div className='col'>
+            <img src={Sénescence} alt="Sénescence" />
+            <img src={DélibérezVous} alt="Délibérez-Vous" />
           </div>
           </div>
       </div>
