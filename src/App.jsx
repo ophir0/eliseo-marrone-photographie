@@ -12,7 +12,7 @@ const App = () => {
     return (
       <div className="container">
         <div className="row">
-          <div className='col-sm-5'>
+          <div className='col-sm-3'>
           <div className="logo">
               <h1>Eliséo Marrone</h1>
               <h7>photographie</h7> 

@@ -26,7 +26,8 @@ nav ul {
   width: auto;
   align-items: left;
   list-style: none;
-  padding: 0;
+  padding: 5;
+  margin: 0;
   
   text-transform: uppercase;
 }
