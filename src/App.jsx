@@ -16,7 +16,7 @@ const App = () => {
           <div className='col-sm-3'>
           <div className="logo">
               <h2>Eliséo Marrone</h2>
-              <h7>photographie</h7> 
+              <h6>photographie</h6> 
             </div>
             </div>
           </div>
