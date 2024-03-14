@@ -1,38 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  height: 8vh;
-    
-}
-
-.accueil-image {
-  width: 75%;
-  padding: 10vh;
-  
-}
-
-.App {
-  display: flex;
-  flex-direction: row;
-
+h1 {
+  font-family: "Mulish", sans-serif;
 }
 
 nav {
   font-family: "Mulish", sans-serif;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  padding: 5vw;
+  width: auto;
+ 
+
 }
 
 nav ul {
@@ -46,14 +22,10 @@ nav ul {
   text-transform: uppercase;
 }
 
-.GalleryContainer {
-  display: flex;
- 
-   
-}
+
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  max-height: 80%;
 
 }

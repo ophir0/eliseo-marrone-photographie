@@ -10,15 +10,31 @@ import Series from "./components/Series";
 const App = () => {
   
     return (
-      <div className="App">
-        <Navigation />   
+      <div className="container">
+        <div className="row">
+            <h1>Éliséo Marrone</h1>
+            <h5>photographie</h5> 
+          </div>
+        <div className="row">
+          <div className="col-sm-1">
+            <Navigation />   
+          </div>
         
-        <Routes>
-          <Route path="/" element={<Accueil />} />
-          <Route path="/Infos" element={<Infos />} />
-          <Route path="/Series" element={<Series />} />
-        </Routes>
-      </div>
+        <div className="col">
+     
+            <Routes>
+              <Route path="/" element={<Accueil />} />
+              <Route path="/Infos" element={<Infos />} />
+              <Route path="/Series" element={<Series />} />
+            </Routes>
+        
+          </div>
+          </div>
+          </div>
+          
+ 
+       
+      
       )
   };    
 export default App;
