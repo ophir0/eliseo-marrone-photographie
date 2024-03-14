@@ -44,3 +44,13 @@ nav ul {
   gap: 4px;
   text-transform: uppercase;
 }
+
+.GalleryContainer {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  width: 50vw;
+  align-items:center;
+  flex-wrap: wrap;
+  
+}

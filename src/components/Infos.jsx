@@ -2,9 +2,9 @@ import React from "react";
 
 const Infos = () => {
   return(
-    <div>
+    <main>
      <h1>Infos</h1>
-    </div>
+    </main>
   )
 };
 
