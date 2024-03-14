@@ -14,7 +14,7 @@ const App = () => {
         <div className="row">
           <div className='col-sm-3'>
           <div className="logo">
-              <h1>Eliséo Marrone</h1>
+              <h2>Eliséo Marrone</h2>
               <h7>photographie</h7> 
             </div>
             </div>
