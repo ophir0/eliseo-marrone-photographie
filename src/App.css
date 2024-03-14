@@ -19,10 +19,6 @@ nav {
 }
 
 
-.gallerygrid {
-  margin: 20px;
-}
-
 nav ul {
   display: flex;
   flex-direction: column;

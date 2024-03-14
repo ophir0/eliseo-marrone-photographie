@@ -13,7 +13,7 @@ const App = () => {
       <div className="container">
         <div className="row">
           <div className="logo">
-              <h1>Éliséo Marrone</h1>
+              <h1>Eliséo Marrone</h1>
               <h7>photographie</h7> 
             </div>
           </div>
