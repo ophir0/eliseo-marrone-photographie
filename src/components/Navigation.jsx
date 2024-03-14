@@ -4,7 +4,7 @@ const Navigation = () => {
      return (
         <nav>
           <div className="logo">
-            <h1>Eliséo Marrone</h1>
+            <h1>Éliséo Marrone</h1>
             <h5>photographie</h5>
           </div>
           <ul>
