@@ -8,6 +8,7 @@ const Series = () => {
   return (
       <div>
         <h1>Series</h1>
+        <div className='gallerygrid'>
           <div className='row'>
             <div className='col'>
             <img src={VoyagePictural} alt="Voyage Pictural" />
@@ -17,6 +18,7 @@ const Series = () => {
             <div className='col'>
             <img src={Sénescence} alt="Sénescence" />
             <img src={DélibérezVous} alt="Délibérez-Vous" />
+          </div>
           </div>
           </div>
       </div>
