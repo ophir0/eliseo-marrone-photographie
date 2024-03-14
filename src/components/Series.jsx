@@ -9,7 +9,7 @@ const Series = () => {
       <div>
         <h1>Series</h1>
         <div className='gallerygrid'>
-          <div className='row'>
+          <div className='row gy-5'>
             <div className='col'>
             <img src={VoyagePictural} alt="Voyage Pictural" />
             <img src={UneNuitAOsaka} alt="Une nuit à Osaka" />

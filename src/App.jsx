@@ -14,7 +14,7 @@ const App = () => {
         <div className="row">
           <div className="logo">
               <h1>Éliséo Marrone</h1>
-              <h6>photographie</h6> 
+              <h7>photographie</h7> 
             </div>
           </div>
         <div className="row">
