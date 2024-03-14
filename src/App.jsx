@@ -12,11 +12,13 @@ const App = () => {
     return (
       <div className="container">
         <div className="row">
-            <h1>Éliséo Marrone</h1>
-            <h5>photographie</h5> 
+          <div className="logo">
+              <h1>Éliséo Marrone</h1>
+              <h5>photographie</h5> 
+            </div>
           </div>
         <div className="row">
-          <div className="col-sm-1">
+          <div className="col-sm-3">
             <Navigation />   
           </div>
         
