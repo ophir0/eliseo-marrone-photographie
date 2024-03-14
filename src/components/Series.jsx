@@ -7,9 +7,9 @@ import DélibérezVous from '/series/Thumbnails/Délibérez-Vous.jpg';
 const Series = () => {
   return (
       <div>
-        <h1>Series</h1>
+        <h2>Series</h2>
         <div className='gallerygrid'>
-          <div className='row g-5'>
+          <div className='row'>
             <div className='col'>
             <img src={VoyagePictural} alt="Voyage Pictural" />
             <img src={UneNuitAOsaka} alt="Une nuit à Osaka" />

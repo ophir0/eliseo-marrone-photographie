@@ -28,7 +28,8 @@ nav ul {
   list-style: none;
   padding: 5;
   margin: 0;
-  
+  opacity: 0.5;
+  color:black;
   text-transform: uppercase;
 }
 
