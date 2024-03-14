@@ -1,17 +1,17 @@
-import * as React from "react";
+import { useState} from "react";
 import Lightbox from "yet-another-react-lightbox";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/styles.css";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes, useNavigate } from "react-router-dom";
 
 const Sénescence = () => {
-    
+  const navigate = useNavigate();
   return (
     <>
     <Lightbox
         open={open}
-        close={() => <Link to="/Series" />}
+        close={() => navigate(-1)}
         plugins={[Thumbnails]}
         slides={[
           { src: "/series/Sénescence/1.jpg" },
