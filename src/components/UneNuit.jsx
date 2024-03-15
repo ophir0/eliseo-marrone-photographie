@@ -15,6 +15,7 @@ const UneNuit = () => {
         open={open}
         close={() => navigate(-1)}
         plugins={[Thumbnails, Slideshow]}
+        styles={{ container: { backgroundColor: "rgba(255, 255, 255, .8)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
           { src: "/series/Une nuit à Osaka/1.jpg" },

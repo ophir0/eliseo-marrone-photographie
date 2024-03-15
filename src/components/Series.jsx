@@ -18,12 +18,11 @@ const Series = () => {
         <div className='gallerygrid'>
           <div className='row'>
             <div className='col'>
-            <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
-            <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
-          
-            </div>
-            <div className='col'>
             <Link to="/Sénescence"><img src={Sénescence} alt="Sénescence" /></Link>
+            <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
+          </div>         
+          <div className='col'>
+            <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
             <Link to="/DélibérezVous"><img src={DélibérezVous} alt="Délibérez-Vous" /></Link>
           </div>
           </div>

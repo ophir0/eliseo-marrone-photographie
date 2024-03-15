@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
-
 h1 {
   font-family: "Mulish", sans-serif;
 }
@@ -29,11 +27,19 @@ nav ul {
   padding: 5;
   margin: 0;
   opacity: 0.5;
-  color:black;
+  
   text-transform: uppercase;
 }
 
 
+.accordion-button:after {
+  display: none;
+ }
+
+.accordion-header {
+  justify-content: center;
+  
+}
 
 img {
   max-width: 100%;
