@@ -18,7 +18,7 @@ const Series = () => {
         <div className='gallerygrid'>
           <div className='row'>
             <div className='col'>
-            <img src={VoyagePictural} alt="Voyage Pictural" />
+            <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
             <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
           
             </div>

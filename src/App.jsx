@@ -9,6 +9,7 @@ import Series from "./components/Series";
 import Sénescence from "./components/Sénescence";
 import UneNuit from "./components/UneNuit";
 import DV from "./components/DV"; 
+import VP from "./components/VP"; 
 
 const App = () => {
   
@@ -36,6 +37,8 @@ const App = () => {
               <Route path="/Sénescence" element={<Sénescence />} />
               <Route path="/UneNuitàOsaka" element={<UneNuit />} />
               <Route path="/DélibérezVous" element={<DV />} />
+              <Route path="/VoyagePictural" element={<VP />} />
+
             </Routes>
         
           </div>
