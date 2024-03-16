@@ -15,18 +15,24 @@ const Series = () => {
   return (
       <div>
         <h2>Series</h2>
-        <div className='gallerygrid'>
-          <div className='row'>
-            <div className='col'>
-            <Link to="/Sénescence"><img src={Sénescence} alt="Sénescence" /></Link>
-            <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
-          </div>         
-          <div className='col'>
-            <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
-            <Link to="/DélibérezVous"><img src={DélibérezVous} alt="Délibérez-Vous" /></Link>
+        <div className='container'>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div className="col mt-3">
+              <Link to="/Sénescence"><img src={Sénescence} alt="Sénescence" /></Link>
+            </div>
+            <div className="col mt-3">
+              <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
+            </div>
+            </div>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div className="col mt-3">
+              <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
+            </div>
+            <div className="col mt-3">
+              <Link to="/DélibérezVous"><img src={DélibérezVous} alt="Délibérez-Vous" /></Link>
+            </div>
           </div>
-          </div>
-          </div>
+        </div>             
       </div>
   )
 }
