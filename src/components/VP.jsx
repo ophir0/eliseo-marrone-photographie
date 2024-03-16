@@ -15,6 +15,7 @@ const VP = () => {
         open={open}
         close={() => navigate(-1)}
         plugins={[Thumbnails, Slideshow]}
+        styles={{ container: { backgroundColor: "rgba(255, 255, 255, .0)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
           { src: "/series/Voyage Pictural/2web.jpg" },
