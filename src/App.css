@@ -14,7 +14,7 @@ nav {
   flex-direction: column;
   gap: 0px;
   align-items: center;  
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 
@@ -26,11 +26,15 @@ nav ul {
   list-style: none;
   padding: 5;
   margin: 0;
-  opacity: 0.5;
+  opacity: 0.7;
   
   text-transform: uppercase;
 }
 
+footer {
+  text-align: center;
+  opacity: 0.7;
+}
 .series-container
 {
   font-family: "Mulish", sans-serif;

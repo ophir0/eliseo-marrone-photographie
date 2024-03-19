@@ -42,6 +42,7 @@ const App = () => {
             </Routes>
         
           </div>
+          <footer>© 2024 Eliséo Marrone</footer>
           </div>
           </div>
           
