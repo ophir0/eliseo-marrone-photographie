@@ -28,7 +28,7 @@ const Series = () => {
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
               <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
-              VoyagePictural
+              Voyage Pictural
             </div>
             <div className="col mt-3">
               <Link to="/DélibérezVous"><img src={DélibérezVous} alt="Délibérez-Vous" /></Link>
