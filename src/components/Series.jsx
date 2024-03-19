@@ -15,21 +15,25 @@ const Series = () => {
   return (
       <div>
         <h2>Series</h2>
-        <div className='container'>
+        <div className='series-container'>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
               <Link to="/Sénescence"><img src={Sénescence} alt="Sénescence" /></Link>
+              Sénescence
             </div>
             <div className="col mt-3">
               <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
+              Une Nuit à Osaka
             </div>
             </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
               <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
+              VoyagePictural
             </div>
             <div className="col mt-3">
               <Link to="/DélibérezVous"><img src={DélibérezVous} alt="Délibérez-Vous" /></Link>
+            Délibérez-Vous
             </div>
           </div>
         </div>             
