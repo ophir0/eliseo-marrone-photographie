@@ -7,19 +7,19 @@ const Infos = () => {
     <h1>Infos</h1>
       <div className="accordion">
       <Accordion
-          title="Item 1 - Lorem ipsum dolor sit amet"
+          title="BIOGRAPHIE"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
         />
         <Accordion
-          title="Item 2 - Lorem ipsum dolor sit amet"
+          title="EXPO"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
         />
         <Accordion
-          title="Item 3 - Lorem ipsum dolor sit amet"
+          title="CONTACT"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
         />
         <Accordion
-          title="Item 4 - Lorem ipsum dolor sit amet"
+          title="MENTION LEGAL"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
         />
       </div>
