@@ -18,7 +18,7 @@ const App = () => {
         <div className="row">
           <div className='col-sm-3'>
           <div className="logo">
-              <h2>Eliséo Marrone</h2>
+              <h3>Eliséo Marrone</h3>
               <h6>photographie</h6> 
             </div>
             </div>
@@ -42,7 +42,7 @@ const App = () => {
             </Routes>
         
           </div>
-          <footer>© 2024 Eliséo Marrone</footer>
+          <footer>©2024 Eliséo Marrone</footer>
           </div>
           </div>
           
