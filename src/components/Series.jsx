@@ -15,7 +15,9 @@ const Series = () => {
   return (
       <div>
         <h2>Series</h2>
-        <div className='series-container'>
+        <div className='container'>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo enim possimus totam odio eligendi, nobis commodi nam ullam est perspiciatis facilis cumque laboriosam vero excepturi tempora nisi beatae hic nesciunt?</p>
+        <div className='series-container>'>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
               <Link to="/Sénescence"><img src={Sénescence} alt="Sénescence" /></Link>
@@ -34,6 +36,7 @@ const Series = () => {
             <div className="col mt-3">
               <Link to="/DélibérezVous"><img src={DélibérezVous} alt="Délibérez-Vous" /></Link>
             Délibérez-Vous
+            </div>
             </div>
           </div>
         </div>             
