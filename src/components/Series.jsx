@@ -13,11 +13,7 @@ import DélibérezVous from '/series/Thumbnails/Délibérez-Vous.jpg';
 
 const Series = () => {
   return (
-      <div>
-        <h2>Series</h2>
-        <div className='container'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo enim possimus totam odio eligendi, nobis commodi nam ullam est perspiciatis facilis cumque laboriosam vero excepturi tempora nisi beatae hic nesciunt?</p>
-        
+      <div>    
         <div className='series-container'>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
@@ -41,7 +37,6 @@ const Series = () => {
         </div>
         </div>
         </div>             
-      </div>
   )
 }
 

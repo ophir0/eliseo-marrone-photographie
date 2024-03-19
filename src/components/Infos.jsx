@@ -4,7 +4,6 @@ import Accordion from "./Accordion";
 const Infos = () => {
   return(
     <main>
-    <h1>Infos</h1>
       <div className="accordion">
       <Accordion
           title="BIOGRAPHIE"
