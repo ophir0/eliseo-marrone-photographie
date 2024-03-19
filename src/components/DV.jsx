@@ -15,7 +15,7 @@ const DV = () => {
         open={open}
         close={() => navigate(-1)}
         plugins={[Thumbnails, Slideshow]}
-        styles={{ container: { backgroundColor: "rgba(255, 255, 255, 1)" } }}
+        styles={{ container: { backgroundColor: "rgba(0, 0, 0, 1)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
           { src: "/series/Délibérez-Vous/1.jpg" },
