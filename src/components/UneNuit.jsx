@@ -18,7 +18,7 @@ const UneNuit = () => {
         plugins={[Thumbnails, Slideshow]}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
-          { src: "/series/Une nuit à Osaka/1.jpg" },
+          { src: "/series/Une nuit à Osaka/1.jpg"},      
           { src: "/series/Une nuit à Osaka/2.jpg" },
           { src: "/series/Une nuit à Osaka/3.jpg" },
           { src: "/series/Une nuit à Osaka/4.jpg" },
