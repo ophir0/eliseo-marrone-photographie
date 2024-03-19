@@ -11,12 +11,14 @@ import { Link, Route, Routes, useNavigate } from "react-router-dom";
 const Sénescence = () => {
   const navigate = useNavigate();
   const slideshowRef = React.useRef(null);
+  const captionsRef = React.useRef(null);
   return (
     <>
     <Lightbox
         open={open}
         close={() => navigate(-1)}
         plugins={[Thumbnails, Slideshow, Captions]}
+        captions={{ ref: captionsRef, showToggle : true }}
         styles={{ container: { backgroundColor: "rgba(255, 255, 255, 1)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
