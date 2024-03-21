@@ -5,6 +5,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Accueil from "./components/Accueil";
 import Infos from "./components/Infos";
+import Contact from "./components/Contact";
 import Series from "./components/Series";
 import Sénescence from "./components/Sénescence";
 import UneNuit from "./components/UneNuit";
@@ -38,6 +39,7 @@ const App = () => {
               <Route path="/UneNuitàOsaka" element={<UneNuit />} />
               <Route path="/DélibérezVous" element={<DV />} />
               <Route path="/VoyagePictural" element={<VP />} />
+              <Route path="/Contact" element={<Contact />} />
 
             </Routes>
         
