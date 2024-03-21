@@ -27,9 +27,24 @@ a:active {
   opacity: 0.8;
 }
 
+form{
+  display:flex;
+   flex-direction:column;
+   justify-content:center;
+    margin:2em 5em;
+  }
+  input, textarea{
+    padding:2em;
+      margin:1em;
+    border-radius:1em;
+    outline:none;
+  }
+
+
 .acceuil-container {
   max-width: 90%;
   max-height: 90%;
+  align-content: center;
 }
 
 h1 {
