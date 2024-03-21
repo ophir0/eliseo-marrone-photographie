@@ -169,3 +169,31 @@ img {
       width: 80%;
   }
 }
+
+
+input, textarea {
+  background-color: transparent;
+  border-bottom: 1px solid #424242;
+  padding: 4px;
+  transition: background-color .5s ease-in-out;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.contactform {
+  text-align: center;
+}
+
+button {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  opacity: .8;
+  transition: all .4s ease-in-out;
+}
+
+
