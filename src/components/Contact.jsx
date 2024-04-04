@@ -29,35 +29,35 @@ export const ContactForm = () => {
 
   return (
     <div className="contactform">
-    <div className="main">
-    <div>
-        <span>Votre prenom:</span>
+    <div className="col">
+    <div className="row">
+        <span>Votre nom complet:</span>
         <input
           name="from_name"
           value={details.from_name}
           onChange={handleDetailsChange}
           type="text"
-          placeholder="Besoin"
+          placeholder="Requis"
         />
       </div>
-      <div>
+      <div className="row">
         <span>Votre email:</span>
         <input
           name="email_address"
           value={details.email_address}
           onChange={handleDetailsChange}
           type="text"
-          placeholder="Besoin"
+          placeholder="Requis"
         />
       </div>
-      <div>
+      <div className="row">
         <span>Votre message:</span>
         <textarea
           name="message"
           value={details.message}
           onChange={handleDetailsChange}
           type="text"
-          placeholder="Besoin"
+          placeholder="Requis"
         />
       </div>
       <button
