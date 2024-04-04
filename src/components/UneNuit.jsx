@@ -33,7 +33,6 @@ const UneNuit = () => {
           { src: "/series/Une nuit à Osaka/13.jpg" },
           { src: "/series/Une nuit à Osaka/14.jpg" },
           { src: "/series/Une nuit à Osaka/15.jpg" },
-          { src: "/series/Une nuit à Osaka/16.jpg" },
           { src: "/series/Une nuit à Osaka/17.jpg" },
           { src: "/series/Une nuit à Osaka/18.jpg" },
           { src: "/series/Une nuit à Osaka/19.jpg" },
