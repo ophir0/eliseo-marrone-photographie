@@ -85,12 +85,18 @@ footer {
 }
 .series-container
 {
+
+    margin-left: auto;
+    margin-right: auto;
   font-family: "Mulish", sans-serif;
   text-align: center; 
   font-size: 0.9rem;
   font-weight: 400;
+  justify-content: center;
 
 }
+
+
 
 .accordion-button:after {
   display: none;

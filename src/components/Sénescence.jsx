@@ -19,11 +19,10 @@ const Sénescence = () => {
         close={() => navigate(-1)}
         plugins={[Thumbnails, Slideshow, Captions]}
         captions={{ ref: captionsRef, showToggle : true }}
-        styles={{ container: { backgroundColor: "rgba(255, 255, 255, 1)" } }}
+        styles={{ container: { backgroundColor: "rgba(0, 0, 0, 1)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
-          { src: "/series/Sénescence/1.jpg",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam", },
+          { src: "/series/Sénescence/1.jpg"},
           { src: "/series/Sénescence/01.jpg" },
           { src: "/series/Sénescence/2.jpg" },
           { src: "/series/Sénescence/3.jpg" },

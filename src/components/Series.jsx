@@ -14,7 +14,7 @@ import DélibérezVous from '/series/Thumbnails/Délibérez-Vous.jpg';
 const Series = () => {
   return (
       <div>    
-        <div className='series-container'>
+        <div className="series-container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
               <Link to="/Sénescence"><img src={Sénescence} alt="Sénescence" /></Link>
