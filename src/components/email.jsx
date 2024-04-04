@@ -18,6 +18,7 @@ const sendCustomEmail = (details) => {
     .then((response) => {
       // Debug statement on the console to show the function has been executed successfully
       console.log(response);
+      event.currentTarget.disabled = true;
     })
     .catch((error) => {
       // Debug statement on the console to show the error that occured
