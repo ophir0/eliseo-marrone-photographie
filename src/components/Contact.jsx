@@ -24,9 +24,11 @@ export const ContactForm = () => {
 
   const handleSendEmail = () => {
     sendCustomEmail(details);
-    
+    currentTarget.disabled = true;
+    console.log("Button Disabled!")
   };
 
+  
   return (
     <div className="contactform">
     <div className="col">
