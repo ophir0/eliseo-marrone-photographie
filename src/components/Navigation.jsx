@@ -1,18 +1,20 @@
+import { Link, Route, Routes } from "react-router-dom";
+
 const Navigation = () => {
-    return (
-      <nav>
-        <div className="logo">
-          <h1>Eliséo Marrone</h1>
-          <h5>photographie</h5>
-        </div>
-        <ul>
-          <li href="#" className="AccueilTexte">Accueil</li>
-          <li href="#" className="SeriesTexte">Series</li>
-          <li href="#" className="InfosTexte">Infos</li>
-        </ul>
-      </nav>
+     return (
+        <nav>
+              
+          <ul>
+            <Link to="/" class="list">Accueil</Link>
+            <Link to="/Series" class="list">Series</Link>
+            <Link to="/Infos" class="list">Infos</Link>
+            <Link to="/Contact" class="list">Contact</Link>
+          </ul>
+    
+        </nav>
     );
-  };
+  
+};
   
   export default Navigation;
   
