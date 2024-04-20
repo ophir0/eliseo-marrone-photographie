@@ -18,17 +18,11 @@ const Infos = () => {
         />
         <Accordion
           title="EXPO"
-          text="- Lecture portfolio auprès de Mme Christine Ollier, historienne de l'art, et cofondatrice de la galerie Les Filles du Calvaire PARIS. ( mars 2018 )
-
-          - Les Rencontres Photographique de Waremme ( expo collective février 2020)
-          
-          - Galerie Photo Ouverture, Liège  << L'Enfance aux petit bonheurs >> ( expo collective , avril 2023 )
-          
-          - Galerie 23, Liège   << Voyage Pictural >>  ( expo individuelle, avril 2024 )"
+          text="-Les Rencontres Photographique de Waremme (expo collective, Février 2020)        -Galerie <<Ouverture>>,  Liège, <<L'Enfance aux petits bonheurs>> (expo collective, Avril 2023)         -<<Galerie 23>>,  Liège,  <<Voyage Pictural>> (expo individuelle, Avril 2024)"
         />
         <Accordion
           title="MENTION LEGAL"
-          text="Ce site et son contenu sont protégés par les lois sur la propriété intellectuelle. Toute reproduction est interdite."
+          text="Ce site et son contenu sont protégés par les lois sur la propriété intellectuelle. Toute reproduction est interdite. (Site est encore en construction)."
         />
       </div>
       
