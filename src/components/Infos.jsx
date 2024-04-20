@@ -28,7 +28,7 @@ const Infos = () => {
         />
         <Accordion
           title="MENTION LEGAL"
-          text="Ce site et son contenu sont protégés par les lois sur la propriété intellectuelle. Toute reproduction est interdite."
+          text="Ce site et son contenu sont protégés par les lois sur la propriété intellectuelle. Toute reproduction est interdite. (Site est encore en construction)."
         />
       </div>
       
