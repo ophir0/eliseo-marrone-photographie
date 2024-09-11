@@ -22,13 +22,24 @@ const Sénescence = () => {
         styles={{ container: { backgroundColor: "rgba(0, 0, 0, 1)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
-          { src: "/series/Sénescence/1.jpg"},
-          { src: "/series/Sénescence/01.jpg" },
-          { src: "/series/Sénescence/2.jpg" },
-          { src: "/series/Sénescence/3.jpg" },
-          { src: "/series/Sénescence/4.jpg" },
-          { src: "/series/Sénescence/5.jpg" },
-          { src: "/series/Sénescence/6.jpg" },
+          { src: "/series/Sénescence/01-4.jpg"},
+          { src: "/series/Sénescence/02-4.jpg" },
+          { src: "/series/Sénescence/03-4.jpg" },
+          { src: "/series/Sénescence/04-4.jpg" },
+          { src: "/series/Sénescence/05-4.jpg" },
+          { src: "/series/Sénescence/06-4.jpg" },
+          { src: "/series/Sénescence/07-4.jpg" },
+          { src: "/series/Sénescence/08-4.jpg" },
+          { src: "/series/Sénescence/09-4.jpg" },
+          { src: "/series/Sénescence/010-4.jpg" },
+          { src: "/series/Sénescence/011-4.jpg" },
+          { src: "/series/Sénescence/012-4.jpg" },
+          { src: "/series/Sénescence/013-4.jpg" },
+          { src: "/series/Sénescence/015-4.jpg" },
+          { src: "/series/Sénescence/016-4.jpg" },
+          { src: "/series/Sénescence/017-4.jpg" },
+          { src: "/series/Sénescence/018-4.jpg" },
+          { src: "/series/Sénescence/019-4.jpg" },
         ]}
       />
     </>
