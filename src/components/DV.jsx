@@ -22,7 +22,6 @@ const DV = () => {
           { src: "/series/Délibérez-Vous/2.jpg" },
           { src: "/series/Délibérez-Vous/3.jpg" },
           { src: "/series/Délibérez-Vous/4.jpg" },
-          { src: "/series/Délibérez-Vous/5.jpg" },
           { src: "/series/Délibérez-Vous/6.jpg" },
           { src: "/series/Délibérez-Vous/7.jpg" },
           { src: "/series/Délibérez-Vous/8.jpg" },
