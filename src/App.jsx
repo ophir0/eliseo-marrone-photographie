@@ -11,6 +11,7 @@ import Sénescence from "./components/Sénescence";
 import UneNuit from "./components/UneNuit";
 import DV from "./components/DV"; 
 import VP from "./components/VP"; 
+import Emergent from "./components/Emergent";
 
 const App = () => {
   
@@ -40,6 +41,7 @@ const App = () => {
               <Route path="/UneNuitàOsaka" element={<UneNuit />} />
               <Route path="/DélibérezVous" element={<DV />} />
               <Route path="/VoyagePictural" element={<VP />} />
+              <Route path="/Emergent" element={<Emergent />} />
               <Route path="/Contact" element={<ContactForm />} />
 
             </Routes>
