@@ -22,6 +22,7 @@ const Emergent = () => {
         styles={{ container: { backgroundColor: "rgba(0, 0, 0, 1)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
+          { src: "/series/Emergent/32.jpg", description: "Ce jour-là, plusieurs figurants comédiens, tenant en main diverses œuvres d'art,  squattent soudainement la gare Liège-Guillemins. Déambulant de manière aléatoire parmi les voyageurs, cette performance visait à observer l'interaction et la curiosité des œuvres dans un fascinant spectacle éphémère."},
           { src: "/series/Emergent/1.jpg"},
           { src: "/series/Emergent/4.jpg"},
           { src: "/series/Emergent/6.jpg"},
@@ -30,11 +31,10 @@ const Emergent = () => {
           { src: "/series/Emergent/11.jpg"},
           { src: "/series/Emergent/13.jpg"},
           { src: "/series/Emergent/14.jpg"},
-          { src: "/series/Emergent/15.jpg"},
           { src: "/series/Emergent/18.jpg"},
           { src: "/series/Emergent/26.jpg"},
           { src: "/series/Emergent/30.jpg"},
-          { src: "/series/Emergent/32.jpg"},
+          { src: "/series/Emergent/15.jpg"},
           { src: "/series/Emergent/34.jpg"},
           { src: "/series/Emergent/36.jpg"},
           { src: "/series/Emergent/38.jpg"},

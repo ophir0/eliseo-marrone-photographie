@@ -10,7 +10,7 @@ import UneNuitAOsaka from '/series/Thumbnails/Une nuit à Osaka.jpg';
 import Sénescence from '/series/Thumbnails/Sénescence.jpg';
 import DélibérezVous from '/series/Thumbnails/Délibérez-Vous.jpg';
 import EmergentThumb from '/series/Thumbnails/Emergent.jpg';
-
+import THThumb from '/series/Thumbnails/Tarmac Hubolt.png'
 
 const Series = () => {
   return (
@@ -18,19 +18,28 @@ const Series = () => {
         <div className="series-container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
+                  <Link to="/Emergent">
+                    <img src={EmergentThumb} alt="Emergent" />
+                  </Link>
+                  <div>Emergent</div>
+                </div>
+            
+            <div className="col mt-3">
               <Link to="/VoyagePictural"><img src={VoyagePictural} alt="Voyage Pictural" /></Link>
               Voyage Pictural
             </div>
-            <div className="col mt-3">
+            </div>
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">  
+                <div className="col mt-3">
+                  <Link to="/TarmacHubolt">
+                    <img src={THThumb} alt="Tarmac Hubolt" />
+                  </Link>
+                  <div>Tarmac Hubolt</div>
+              </div>    
+              <div className="col mt-3">
               <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
               Une Nuit à Osaka
             </div>
-            </div>
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-            <div className="text-center">
-              <Link to="/Emergent"><img src={EmergentThumb} alt="Emergent" /></Link>
-                  Emergent
-              </div>
             </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <div className="col mt-3">
