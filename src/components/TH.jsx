@@ -18,17 +18,17 @@ const TH = () => {
         styles={{ container: { backgroundColor: "rgba(0, 0, 0, 1)" } }}
         slideshow={{ ref: slideshowRef, autoplay: true, delay: 8000 }}
         slides={[
-          { src: "/series/Tarmac Hubolt/1.png" },
-          { src: "/series/Tarmac Hubolt/2.jpg" },
-          { src: "/series/Tarmac Hubolt/3.jpg" },
-          { src: "/series/Tarmac Hubolt/4.jpg" },
-          { src: "/series/Tarmac Hubolt/6.jpg" },
-          { src: "/series/Tarmac Hubolt/7.jpg" },
-          { src: "/series/Tarmac Hubolt/8.jpg" },
-          { src: "/series/Tarmac Hubolt/9.jpg" },
-          { src: "/series/Tarmac Hubolt/10.jpg" },
-          { src: "/series/Tarmac Hubolt/11.jpg" },
-          { src: "/series/Tarmac Hubolt/12.jpg" },
+          { src: "/series/Tarmac Hublot/1.png" },
+          { src: "/series/Tarmac Hublot/2.jpg" },
+          { src: "/series/Tarmac Hublot/3.jpg" },
+          { src: "/series/Tarmac Hublot/4.jpg" },
+          { src: "/series/Tarmac Hublot/6.jpg" },
+          { src: "/series/Tarmac Hublot/7.jpg" },
+          { src: "/series/Tarmac Hublot/8.jpg" },
+          { src: "/series/Tarmac Hublot/9.jpg" },
+          { src: "/series/Tarmac Hublot/10.jpg" },
+          { src: "/series/Tarmac Hublot/11.jpg" },
+          { src: "/series/Tarmac Hublot/12.jpg" },
         ]}
       />
     </>

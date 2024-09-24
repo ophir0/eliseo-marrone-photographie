@@ -31,8 +31,8 @@ const Series = () => {
             </div>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">  
                 <div className="col mt-3">
-                  <Link to="/TarmacHubolt">
-                    <img src={THThumb} alt="Tarmac Hubolt" />
+                  <Link to="/TarmacHublot">
+                    <img src={THThumb} alt="Tarmac Hublot" />
                   </Link>
                   <div>Tarmac Hubolt</div>
               </div>    

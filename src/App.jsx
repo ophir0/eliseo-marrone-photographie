@@ -41,7 +41,7 @@ const App = () => {
               <Route path="/Sénescence" element={<Sénescence />} />
               <Route path="/UneNuitàOsaka" element={<UneNuit />} />
               <Route path="/DélibérezVous" element={<DV />} />
-              <Route path="/TarmacHubolt" element={<TH />} />
+              <Route path="/TarmacHublot" element={<TH />} />
               <Route path="/VoyagePictural" element={<VP />} />
               <Route path="/Emergent" element={<Emergent />} />
               <Route path="/Contact" element={<ContactForm />} />
