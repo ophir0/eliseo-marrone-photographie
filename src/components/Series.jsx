@@ -34,7 +34,7 @@ const Series = () => {
                   <Link to="/TarmacHublot">
                     <img src={THThumb} alt="Tarmac Hublot" />
                   </Link>
-                  <div>Tarmac Hubolt</div>
+                  <div>Tarmac Hublot</div>
               </div>    
               <div className="col mt-3">
               <Link to="/UneNuitàOsaka"><img src={UneNuitAOsaka} alt="Une nuit à Osaka" /></Link>
