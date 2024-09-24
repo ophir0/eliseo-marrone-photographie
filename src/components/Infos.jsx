@@ -18,11 +18,11 @@ const Infos = () => {
         />
         <Accordion
           title="EXPO"
-          text="-Les Rencontres Photographique de Waremme (expo collective, Février 2020)        -Galerie <<Ouverture>>,  Liège, <<L'Enfance aux petits bonheurs>> (expo collective, Avril 2023)         -<<Galerie 23>>,  Liège,  <<Voyage Pictural>> (expo individuelle, Avril 2024)"
+          text="<li>Les Rencontres Photographique de Waremme (expo collective, Février 2020)        <li>Galerie <<Ouverture>>,  Liège, <<L'Enfance aux petits bonheurs>> (expo collective, Avril 2023)         <li><<Galerie 23>>,  Liège,  <<Voyage Pictural>> (expo individuelle, Avril 2024)"
         />
         <Accordion
           title="MENTION LEGAL"
-          text="Ce site et son contenu sont protégés par les lois sur la propriété intellectuelle. Toute reproduction est interdite. (Site est encore en construction)."
+          text="Ce site et son contenu sont protégés par les lois sur la propriété intellectuelle. Toute reproduction est interdite. (Site encore en construction)."
         />
       </div>
       
