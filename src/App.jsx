@@ -49,7 +49,7 @@ const App = () => {
             </Routes>
             </div>
           </div>
-          <footer>©2024 Eliséo Marrone</footer>
+          <footer>©2025 Eliséo Marrone</footer>
           </div>
           </div>
           
